@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# File di stato (contiene progressi utente)
+password_review_state.json
+*.json.corrupted_*
+
+# Report generati localmente
+*.txt
+
+# CSV di output generato localmente
+passwords_final_for_import.csv
+*.csv
+
+# File di backup
+*.bak
+
+# File specifici di ambienti virtuali (se ne usi uno)
+venv/
+.venv/
+env/
+.env
+
+# File specifici di editor/IDE (opzionale, aggiungi se necessario)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
